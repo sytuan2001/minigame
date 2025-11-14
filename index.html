@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bắt Hoa 20/11</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="game-container" id="gameContainer">
+    <!-- Màn hình bắt đầu -->
+    <div class="start-screen" id="startScreen">
+        <h1>🌸 BẮT HOA 20/11 🌸</h1>
+        <p>Học viên lớp C10 chúc anh chị và đội ngũ đào tạo  Codegym</p>
+        <p>Chúc mừng ngày Nhà giáo Việt Nam!<br>Bắt hoa để nhận lời chúc may mắn! 💐</p>
+        <button class="start-btn" onclick="startGame()">BẮT ĐẦU</button>
+    </div>
+
+    <!-- Header game -->
+    <div class="header">
+        <div class="title">🌸 Bắt Hoa 20/11</div>
+        <div class="score">Điểm: <span id="score">0</span></div>
+        <div class="timer">Thời gian: <span id="timer">60</span>s</div>
+    </div>
+
+    <!-- Màn hình kết thúc -->
+    <div class="game-over" id="gameOver">
+        <h1>🎉 HẾT GIỜ! 🎉</h1>
+        <p>Điểm số của bạn: <span id="finalScore">0</span></p>
+        <button class="restart-btn" onclick="restartGame()">CHƠI LẠI</button>
+    </div>
+</div>
+<img src="ảnh/" alt="">
+<script src="index.js">
+
+</script>
+</body>
+</html>
